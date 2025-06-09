@@ -4,8 +4,8 @@
 **适用于 Windows 和 Linux 平台的完整多人游戏支持, 包含 STEAM 上的 2.1.0.11 和 ITCH 上的 1.2.2.3!**\
 适用于恶魔轮盘赌的模组加载器, 基于  [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 的 4.x 分支.\
 \
-![BRML 主界面](img_docs/BRMLMainScreen.png "BRML 主界面")
-![BRML 模组菜单](img_docs/BRMLModMenu.png "BRML 模组菜单")
+![BRML 主界面](img_docs/BRMLMainScreen_ZH.png "BRML 主界面")
+![BRML 模组菜单](img_docs/BRMLModMenu_ZH.png "BRML 模组菜单")
 ## 信息
 此仓库不包含由 Mike Klubnika 制作的恶魔轮盘赌的游戏源代码. 但包含一个 .xdelta 格式的修补文件 (和一个 .exe 格式的安装程序) 来修补原始游戏的最新版本. (Steam 上的 v2.1.0.11 和 itch.io 上的 v1.2.2.3) [可在 Steam 上购买](https://store.steampowered.com/app/2835570), [也可在 itch.io 上购买](https://mikeklubnika.itch.io/buckshot-roulette).
 
