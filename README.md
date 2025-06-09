@@ -1,11 +1,11 @@
 # BuckshotRouletteModLoader
-**此页面也支持[中文](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/README_ZH.md)!**
+**此页面也支持[中文](README_ZH.md)!**
 
 **FULL MULTIPLAYER SUPPORT FOR WINDOWS AND LINUX, STEAM 2.1.0.11, AND ITCH 1.2.2.3!**\
 A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
 \
-![BRML Title Screen](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLMainScreen.png "BRML Title Screen")
-![BRML Mod Menu](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLModMenu.png "BRML Mod Menu")
+![BRML Title Screen](img_docs/BRMLMainScreen.png "BRML Title Screen")
+![BRML Mod Menu](img_docs/BRMLModMenu.png "BRML Mod Menu")
 ## Info
 This repository does not contain the source code for Buckshot Roulette by Mike Klubnika. It contains an .xdelta patch (with an installer .exe) to mod the latest version (Steam v2.1.0.11 and itch.io v1.2.2.3) of the original game [available for purchase on Steam](https://store.steampowered.com/app/2835570) and [also available on itch.io](https://mikeklubnika.itch.io/buckshot-roulette).
 
@@ -14,15 +14,15 @@ Mike Klubnika and Critical Reflex have worked hard on this game. Please show the
 
 ## Available Mods
 _This list is outdated due to the latest updates and will be updated soon!_
-- [TestMod](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/TestMod.md) by AGO061 ([ModLoader version support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#testmod-by-ago061)) - a basic test mod that moves the soap bar from one side of the sink to the other.
-- [OpenGL3 Fix](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/OpenGL3Fix.md) by AGO061 ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#opengl3-fix-by-ago061)) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on Windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix.
-- [Smarter Dealer](https://github.com/ITR13/BuckshotRouletteSmarterDealer/releases/latest) by ITR ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#smarter-dealer-by-itr)) - a deadly dealer that will absolutely shred you.
-- [Native Resolution](https://github.com/EmK530/BRMods/tree/main/BRML/NativeResolution/Release) by EmK530 ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#native-resolution-by-emk530)) - a mod that increases the game's resolution to match your monitor.
-- [Challenge Pack](https://github.com/StarPandaBeg/ChallengePack) by StarPandaBeg ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#challenge-pack-by-starpandabeg)) - a mod hides bullets, items with a configuration menu.
-- [Dealer Face](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) by ScientificGuy ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#dealer-face-by-scientificguy)) - resets the Dealer's face in between rounds.
-- [Bug Fixes](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) by ScientificGuy ([ModLoader Version Support](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md#bug-fixes-by-scientificguy)) - fixes bugs such as slow motion through resets.
+- [TestMod](mods/TestMod.md) by AGO061 ([ModLoader version support](mods/ModLoaderVersionSupport.md#testmod-by-ago061)) - a basic test mod that moves the soap bar from one side of the sink to the other.
+- [OpenGL3 Fix](mods/OpenGL3Fix.md) by AGO061 ([ModLoader Version Support](mods/ModLoaderVersionSupport.md#opengl3-fix-by-ago061)) - a mod that fixes glaring issues with the OpenGL3 renderer, it requires the `-cm` command line argument to work. Make a shortcut on Windows and add at the end of the path this command `--rendering-driver opengl3 -cm` for an easier way to run with OpenGL3 + Fix.
+- [Smarter Dealer](https://github.com/ITR13/BuckshotRouletteSmarterDealer/releases/latest) by ITR ([ModLoader Version Support](mods/ModLoaderVersionSupport.md#smarter-dealer-by-itr)) - a deadly dealer that will absolutely shred you.
+- [Native Resolution](https://github.com/EmK530/BRMods/tree/main/BRML/NativeResolution/Release) by EmK530 ([ModLoader Version Support](mods/ModLoaderVersionSupport.md#native-resolution-by-emk530)) - a mod that increases the game's resolution to match your monitor.
+- [Challenge Pack](https://github.com/StarPandaBeg/ChallengePack) by StarPandaBeg ([ModLoader Version Support](mods/ModLoaderVersionSupport.md#challenge-pack-by-starpandabeg)) - a mod hides bullets, items with a configuration menu.
+- [Dealer Face](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) by ScientificGuy ([ModLoader Version Support](mods/ModLoaderVersionSupport.md#dealer-face-by-scientificguy)) - resets the Dealer's face in between rounds.
+- [Bug Fixes](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) by ScientificGuy ([ModLoader Version Support](mods/ModLoaderVersionSupport.md#bug-fixes-by-scientificguy)) - fixes bugs such as slow motion through resets.
 
-Check [this](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport.md) file in case I missed some mods here, or haven't added the Mod Version Support link.
+Check [this](mods/ModLoaderVersionSupport.md) file in case I missed some mods here, or haven't added the Mod Version Support link.
 ## Currently supported features
 - Basic mod support: allows to load custom mod zips to a mods folder in the same directory as the game.
 - Normal fix: Fixed normals from the [GDRE Tools](https://github.com/bruvzg/gdsdecomp) decompilation of the game.

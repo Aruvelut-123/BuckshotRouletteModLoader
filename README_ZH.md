@@ -1,11 +1,11 @@
 # 恶魔轮盘赌模组加载器
-**This readme page is also avaliable in [English](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/README.md)!**
+**This readme page is also avaliable in [English](README.md)!**
 
 **适用于 Windows 和 Linux 平台的完整多人游戏支持, 包含 STEAM 上的 2.1.0.11 和 ITCH 上的 1.2.2.3!**\
 适用于恶魔轮盘赌的模组加载器, 基于  [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 的 4.x 分支.\
 \
-![BRML 主界面](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLMainScreen.png "BRML 主界面")
-![BRML 模组菜单](https://raw.githubusercontent.com/AGO061/BuckshotRouletteModLoader/refs/heads/main/img_docs/BRMLModMenu.png "BRML 模组菜单")
+![BRML 主界面](img_docs/BRMLMainScreen.png "BRML 主界面")
+![BRML 模组菜单](img_docs/BRMLModMenu.png "BRML 模组菜单")
 ## 信息
 此仓库不包含由 Mike Klubnika 制作的恶魔轮盘赌的游戏源代码. 但包含一个 .xdelta 格式的修补文件 (和一个 .exe 格式的安装程序) 来修补原始游戏的最新版本. (Steam 上的 v2.1.0.11 和 itch.io 上的 v1.2.2.3) [可在 Steam 上购买](https://store.steampowered.com/app/2835570), [也可在 itch.io 上购买](https://mikeklubnika.itch.io/buckshot-roulette).
 
@@ -14,20 +14,20 @@ Mike Klubnika 和 Critical Reflex 在这个游戏上花了不少功夫. 请尊�
 
 ## 可用的一些模组
 _此列表已经因为最新更新而过期了, 我们很快就会更新它!_
-- 由 AGO061 制作的 [测试模组](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/TestMod_ZH.md) ([支持的模组加载器版本](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport_ZH.md#testmod-by-ago061)) - 一个基础的可以将肥皂从水池的一边移动到另一边的测试模组.
-- 由 AGO061 制作的 [OpenGL3 修复](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/OpenGL3Fix_ZH.md) ([支持的模组加载器版本](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport_ZH.md#opengl3-fix-by-ago061)) - 一个修复了 OpenGL3 渲染器的一些突出问题的模组. 此模组需要在游戏执行参数后添加 `-cm` 才能工作. 在 Windows 上创建一个快捷方式并将 `--rendering-driver opengl3 -cm` 添加到可执行文件路径末尾即可更轻松的使用 OpenGL3 渲染器 + 一些修复来运行游戏.
-- 由 ITR 制作的 [更聪明的庄家](https://github.com/ITR13/BuckshotRouletteSmarterDealer/releases/latest) ([支持的模组加载器版本](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport_ZH.md#smarter-dealer-by-itr)) - 一个绝对会想尽办法把你撕碎的庄家.
-- 由 EmK530 制作的 [原生分辨率](https://github.com/EmK530/BRMods/tree/main/BRML/NativeResolution/Release) ([支持的模组加载器版本](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport_ZH.md#native-resolution-by-emk530)) - 一个可以将游戏分辨率提升到匹配你的显示器的模组.
-- 由 StarPandaBeg 制作的 [挑战包](https://github.com/StarPandaBeg/ChallengePack) ([支持的模组加载器版本](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport_ZH.md#challenge-pack-by-starpandabeg)) - 一个可以隐藏子弹和物品的模组, 带有配置菜单.
-- 由 ScientificGuy 制作的 [庄家的脸](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) ([支持的模组加载器版本](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport_ZH.md#dealer-face-by-scientificguy)) - 每局结束后自动重置庄家的脸.
-- 由 ScientificGuy 制作的 [错误修复](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) ([支持的模组加载器版本](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport_ZH.md#bug-fixes-by-scientificguy)) - 修复了诸如重置时的慢动作的错误.
+- 由 AGO061 制作的 [测试模组](mods/TestMod_ZH.md) ([支持的模组加载器版本](mods/ModLoaderVersionSupport_ZH.md#testmod-by-ago061)) - 一个基础的可以将肥皂从水池的一边移动到另一边的测试模组.
+- 由 AGO061 制作的 [OpenGL3 修复](mods/OpenGL3Fix_ZH.md) ([支持的模组加载器版本](mods/ModLoaderVersionSupport_ZH.md#opengl3-fix-by-ago061)) - 一个修复了 OpenGL3 渲染器的一些突出问题的模组. 此模组需要在游戏执行参数后添加 `-cm` 才能工作. 在 Windows 上创建一个快捷方式并将 `--rendering-driver opengl3 -cm` 添加到可执行文件路径末尾即可更轻松的使用 OpenGL3 渲染器 + 一些修复来运行游戏.
+- 由 ITR 制作的 [更聪明的庄家](https://github.com/ITR13/BuckshotRouletteSmarterDealer/releases/latest) ([支持的模组加载器版本](mods/ModLoaderVersionSupport_ZH.md#smarter-dealer-by-itr)) - 一个绝对会想尽办法把你撕碎的庄家.
+- 由 EmK530 制作的 [原生分辨率](https://github.com/EmK530/BRMods/tree/BRML/NativeResolution/Release) ([支持的模组加载器版本](mods/ModLoaderVersionSupport_ZH.md#native-resolution-by-emk530)) - 一个可以将游戏分辨率提升到匹配你的显示器的模组.
+- 由 StarPandaBeg 制作的 [挑战包](https://github.com/StarPandaBeg/ChallengePack) ([支持的模组加载器版本](mods/ModLoaderVersionSupport_ZH.md#challenge-pack-by-starpandabeg)) - 一个可以隐藏子弹和物品的模组, 带有配置菜单.
+- 由 ScientificGuy 制作的 [庄家的脸](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) ([支持的模组加载器版本](mods/ModLoaderVersionSupport_ZH.md#dealer-face-by-scientificguy)) - 每局结束后自动重置庄家的脸.
+- 由 ScientificGuy 制作的 [错误修复](https://github.com/ScientificGuy/BuckshotRouletteMods/releases/latest) ([支持的模组加载器版本](mods/ModLoaderVersionSupport_ZH.md#bug-fixes-by-scientificguy)) - 修复了诸如重置时的慢动作的错误.
 
-防止我在此忘记列出部分模组, 请查看[这个](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/ModLoaderVersionSupport_ZH.md)文件. 
+防止我在此忘记列出部分模组, 请查看[这个](mods/ModLoaderVersionSupport_ZH.md)文件. 
 ## 目前支持的功能
 - 基础模组支持: 允许加载与游戏文件夹在同一目录的 mods 文件夹内的自定义模组 zip.
 - 常规修复: 修复了使用 [GDRE Tools](https://github.com/bruvzg/gdsdecomp) 反编译后的游戏的部分错误.
 - 默认渲染引擎: 此版本仍然默认使用 Forward+ 渲染器 (不像那些绝对不正规的网页版和手机版移植)
-- 可以为你的 mod 添加自定义设置界面! (由于我没有多少时间去补充 wiki, 所以请查看[测试模组](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/mods/TestMod_ZH.md)的源代码来了解如何添加你的自定义设置界面)
+- 可以为你的 mod 添加自定义设置界面! (由于我没有多少时间去补充 wiki, 所以请查看[测试模组](mods/TestMod_ZH.md)的源代码来了解如何添加你的自定义设置界面)
 - 在你自己的[服务器](#服务器)上开设多人游戏服务. **警告:** 修补后的游戏不支持 STEAM 的在线多人联机!
 
 ## 优势
