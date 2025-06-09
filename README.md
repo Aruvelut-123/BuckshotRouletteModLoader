@@ -1,4 +1,6 @@
 # BuckshotRouletteModLoader
+**此页面也支持[中文](https://github.com/AGO061/BuckshotRouletteModLoader/blob/main/README_ZH.md)!**
+
 **FULL MULTIPLAYER SUPPORT FOR WINDOWS AND LINUX, STEAM 2.1.0.11, AND ITCH 1.2.2.3!**\
 A Mod Loader for Buckshot Roulette based on the [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) 4.x branch.\
 \
