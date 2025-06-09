@@ -1,5 +1,5 @@
 # Mod Loader Version Support
-this file contains the supported ModLoader version for each Mod in the list on the [README](README.md) file.
+this file contains the supported ModLoader version for each Mod in the list on the [README](../README.md) file.
 
 ## TestMod by AGO061
 ✔ v.1.0.0\
